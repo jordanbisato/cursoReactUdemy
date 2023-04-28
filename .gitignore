@@ -1,44 +1,77 @@
 # OSX
 #
-.DS_Store
+/contatos/.DS_Store
+/series/.DS_Store
 
 # Xcode
 #
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-ios/.xcode.env.local
+/contatos/build/
+/contatos/*.pbxuser
+/contatos/!default.pbxuser
+/contatos/*.mode1v3
+/contatos/!default.mode1v3
+/contatos/*.mode2v3
+/contatos/!default.mode2v3
+/contatos/*.perspectivev3
+/contatos/!default.perspectivev3
+/contatos/xcuserdata
+/contatos/*.xccheckout
+/contatos/*.moved-aside
+/contatos/DerivedData
+/contatos/*.hmap
+/contatos/*.ipa
+/contatos/*.xcuserstate
+/contatos/ios/.xcode.env.local
+
+/series/build/
+/series/*.pbxuser
+/series/!default.pbxuser
+/series/*.mode1v3
+/series/!default.mode1v3
+/series/*.mode2v3
+/series/!default.mode2v3
+/series/*.perspectivev3
+/series/!default.perspectivev3
+/series/xcuserdata
+/series/*.xccheckout
+/series/*.moved-aside
+/series/DerivedData
+/series/*.hmap
+/series/*.ipa
+/series/*.xcuserstate
+/series/ios/.xcode.env.local
 
 # Android/IntelliJ
 #
-build/
-.idea
-.gradle
-local.properties
-*.iml
-*.hprof
-.cxx/
-*.keystore
-!debug.keystore
+/contatos/build/
+/contatos/.idea
+/contatos/.gradle
+/contatos/local.properties
+/contatos/*.iml
+/contatos/*.hprof
+/contatos/.cxx/
+/contatos/*.keystore
+/contatos/!debug.keystore
+
+/series/build/
+/series/.idea
+/series/.gradle
+/series/local.properties
+/series/*.iml
+/series/*.hprof
+/series/.cxx/
+/series/*.keystore
+/series/!debug.keystore
 
 # node.js
 #
-node_modules/
-npm-debug.log
-yarn-error.log
+/contatos/node_modules/
+/contatos/npm-debug.log
+/contatos/yarn-error.log
+
+/series/node_modules/
+/series/npm-debug.log
+/series/yarn-error.log
 
 # fastlane
 #
@@ -53,14 +86,25 @@ yarn-error.log
 **/fastlane/test_output
 
 # Bundle artifact
-*.jsbundle
+/contatos/*.jsbundle
+/series/*.jsbundle
 
 # Ruby / CocoaPods
-/ios/Pods/
-/vendor/bundle/
+/contatos/ios/Pods/
+/contatos/vendor/bundle/
+
+/series/ios/Pods/
+/series/vendor/bundle/
 
 # Temporary files created by Metro to check the health of the file watcher
 .metro-health-check*
-android/app/src/debug
-android/app/src/main
-android/app/src/release
+
+/contatos/android/.gradle
+/contatos/android/app/src/debug
+/contatos/android/app/src/main
+/contatos/android/app/src/release
+
+/series/android/.gradle
+/series/android/app/src/debug
+/series/android/app/src/main
+/series/android/app/src/release
